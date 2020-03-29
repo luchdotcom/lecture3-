@@ -6,8 +6,7 @@
 #include <iostream>
 #include "Employee.h"
 
-Employee::Employee( ):name( ""),egn("") {
-
+Employee::Employee( ):name(),egn() {
 }
 
 Employee::Employee( char * name, char* egn ) {
